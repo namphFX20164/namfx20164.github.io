@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.8;
+  }
+
+  body {
+    width: 768px;
+  }
+  .khonghien {
+    display: none;
+  }
+  .banner_img {
+    /* position: absolute; */
+    display: block;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-bar,
+  .icon {
+    font-size: 1.2em;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .nav .icon {
+    padding-left: 40px;
+  }
+  /* .nav-bar {
+    padding-left: 30%;
+  } */
+  .nav-bar1 {
+    padding-top: 5px;
+    text-align: left;
+    padding-bottom: 0px;
+    border: none;
+  }
+  .nav {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 0.5fr);
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    text-align: left;
+  }
+  h1.section-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+  }
+  .r1 {
+    display: block;
+  }
+  /* #personal-info {
+    margin-right: 5px;
+    margin-left: 5px; */
+  /* font-size: 1.5em;
+  } */
+
+  .nav .info-ul {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  .info-icon {
+    color: rgb(83, 163, 233);
+    font-size: 20px;
+  }
+  .icon-row {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .r2 {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .duan {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .dongda,
+  table,
+  .r211 {
+    width: auto;
+  }
+  .cotduan,
+  .footer {
+    width: auto;
+  }
+}
